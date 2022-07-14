@@ -1,0 +1,14 @@
+// 与css 中的import不同 css的import每次调用都会发起请求
+// scss 不会创建新的请求
+// 导入时 不需要添加下划线（下划线 表示只能当做模块 不能单独使用）
+// 全局变量
+@import "variales";
+
+// 样式初始化
+@import "reboot";
+
+// mixin
+@import "mixin";
+
+// 导入button的样式
+@import "../components/Button/style"
